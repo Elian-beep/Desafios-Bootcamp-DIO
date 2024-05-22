@@ -10,7 +10,6 @@ public class ReprodutorMusical {
     private Musica musicaAtual;
 
     public void tocar(){
-        CorreioVoz correioVoz = new CorreioVoz();
         System.out.println("Tocando "+musicaAtual.getNome()+" do(a) "+musicaAtual.getArtista());
     }
 
